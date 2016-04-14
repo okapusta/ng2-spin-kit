@@ -39,10 +39,7 @@ import * as spinner from './spinners'
 })
 
 export class App implements OnInit {
-  public areSpinnersVisible = false;
-
   ngOnInit(): any {
     console.log('App initialized!');
-    this.areSpinnersVisible = true;
   }
 }
