@@ -20,13 +20,13 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
 
 3. or all of them
   ```javascript
-  import {*} as spinner from 'ng2-spin-kit/app/spinners'
+  import * as spinner from 'ng2-spin-kit/app/spinners'
   ```
   
 4. Use as a directive:
   ```javascript
   import {Component} from 'angular2/core';
-  import {*} as spinner from 'ng2-spin-kit/app/spinners';
+  import * as spinner from 'ng2-spin-kit/app/spinners';
   
   @Component({
     selector: 'app',
