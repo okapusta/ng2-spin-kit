@@ -63,9 +63,12 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
   <sk-folding-cube [isRunning]="..." [delay]="..."></sk-folding-cube>
   ```
 
-5. For every component you can set:
+#### For every component you can set:
   ```
   [isRunning]: boolean - state of the spinner, true - visible, false - hidden, default: true
+  ```
+  
+  ```
   [delay]: number - representing the milliseconds to wait, before showing the spinner, default: 0
   ```
   
