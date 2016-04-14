@@ -20,13 +20,13 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
 
 3. or all of them
   ```javascript
-  import {*} as spinner from 'ng2-spin-kit/app/spinners'
+  import * as spinner from 'ng2-spin-kit/app/spinners'
   ```
   
 4. Use as a directive:
   ```javascript
   import {Component} from 'angular2/core';
-  import {*} as spinner from 'ng2-spin-kit/app/spinners';
+  import * as spinner from 'ng2-spin-kit/app/spinners';
   
   @Component({
     selector: 'app',
@@ -63,9 +63,12 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
   <sk-folding-cube [isRunning]="..." [delay]="..."></sk-folding-cube>
   ```
 
-5. For every component you can set:
+#### For every component you can set:
   ```
   [isRunning]: boolean - state of the spinner, true - visible, false - hidden, default: true
+  ```
+  
+  ```
   [delay]: number - representing the milliseconds to wait, before showing the spinner, default: 0
   ```
   
