@@ -1,7 +1,6 @@
 import {Component, OnInit} from 'angular2/core';
 import * as spinner from './spinners'
 
-
 @Component({
   selector: 'app',
   directives: [
