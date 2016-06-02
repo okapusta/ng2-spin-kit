@@ -2,7 +2,7 @@ import {Input, OnDestroy} from 'angular2/core';
 
 export class BaseSpinner implements OnDestroy {
   private visible: boolean = true;
-  private timeout: number;
+  private timeout: any;
 
   @Input()
   public delay: number = 0;
