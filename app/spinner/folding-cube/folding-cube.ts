@@ -5,7 +5,7 @@ import {BaseSpinner} from '../base-spinner';
   moduleId: __moduleName || module.id,
   selector: 'sk-folding-cube',
   styleUrls: ['folding-cube.css'],
-  templateUrl: 'folding-cube.html'
+  template: require('./folding-cube.html')
 })
 
 export class FoldingCubeComponent extends BaseSpinner {}

@@ -5,7 +5,7 @@ import {BaseSpinner} from '../base-spinner';
   moduleId: __moduleName || module.id,
   selector: 'sk-wave',
   styleUrls: ['wave.css'],
-  templateUrl: 'wave.html'
+  template: require('./wave.html')
 })
 
 export class WaveComponent extends BaseSpinner {}

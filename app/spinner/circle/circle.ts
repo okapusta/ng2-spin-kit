@@ -5,7 +5,7 @@ import {BaseSpinner} from '../base-spinner';
   moduleId: __moduleName || module.id,
   selector: 'sk-circle',
   styleUrls: ['circle.css'],
-  templateUrl: 'circle.html'
+  template: require('./circle.html')
 })
 
 export class CircleComponent extends BaseSpinner {}

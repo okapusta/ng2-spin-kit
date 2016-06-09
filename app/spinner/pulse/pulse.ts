@@ -5,7 +5,7 @@ import {BaseSpinner} from '../base-spinner';
   moduleId: __moduleName || module.id,
   selector: 'sk-pulse',
   styleUrls: ['pulse.css'],
-  templateUrl: 'pulse.html'
+  template: require('./pulse.html')
 })
 
 export class PulseComponent extends BaseSpinner {}

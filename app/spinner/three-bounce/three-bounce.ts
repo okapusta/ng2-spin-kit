@@ -5,7 +5,7 @@ import {BaseSpinner} from '../base-spinner';
   moduleId: __moduleName || module.id,
   selector: 'sk-three-bounce',
   styleUrls: ['three-bounce.css'],
-  templateUrl: 'three-bounce.html'
+  template: require('./three-bounce.html')
 })
 
 export class ThreeBounceComponent extends BaseSpinner {}

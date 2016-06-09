@@ -5,7 +5,7 @@ import {BaseSpinner} from '../base-spinner';
   moduleId: __moduleName || module.id,
   selector: 'sk-word-press',
   styleUrls: ['word-press.css'],
-  templateUrl: 'word-press.html'
+  template: require('./word-press.html')
 })
 
 export class WordPressComponent extends BaseSpinner {}

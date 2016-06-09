@@ -5,7 +5,7 @@ import {BaseSpinner} from '../base-spinner';
   moduleId: __moduleName || module.id,
   selector: 'sk-cube-grid',
   styleUrls: ['cube-grid.css'],
-  templateUrl: 'cube-grid.html'
+  template: require('./cube-grid.html')
 })
 
 export class CubeGridComponent extends BaseSpinner {}
