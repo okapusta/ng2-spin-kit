@@ -1,4 +1,4 @@
-import {Component, OnInit} from 'angular2/core';
+import {Component, OnInit} from '@angular/core';
 import * as spinner from './spinners'
 
 @Component({
@@ -34,7 +34,7 @@ import * as spinner from './spinners'
       margin-bottom: 15px;
     }
   `],
-  templateUrl: 'app/app.html'
+  template: require('app/app.html')
 })
 
 export class App implements OnInit {

@@ -1,11 +1,11 @@
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {BaseSpinner} from '../base-spinner';
 
 @Component({
   moduleId: __moduleName || module.id,
   selector: 'sk-three-bounce',
   styleUrls: ['three-bounce.css'],
-  templateUrl: 'three-bounce.html'
+  template: require('./three-bounce.html')
 })
 
 export class ThreeBounceComponent extends BaseSpinner {}

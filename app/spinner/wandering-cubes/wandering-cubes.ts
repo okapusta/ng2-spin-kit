@@ -1,11 +1,11 @@
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {BaseSpinner} from '../base-spinner';
 
 @Component({
   moduleId: __moduleName || module.id,
   selector: 'sk-wandering-cubes',
   styleUrls: ['wandering-cubes.css'],
-  templateUrl: 'wandering-cubes.html'
+  template: require('./wandering-cubes.html')
 })
 
 export class WanderingCubesComponent extends BaseSpinner {}

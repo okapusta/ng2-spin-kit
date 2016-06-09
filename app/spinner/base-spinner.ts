@@ -1,4 +1,4 @@
-import {Input, OnDestroy} from 'angular2/core';
+import {Input, OnDestroy} from '@angular/core';
 
 export class BaseSpinner implements OnDestroy {
   private visible: boolean = true;
