@@ -49,17 +49,17 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
   ```
 
   ```html
-  <sk-rotating-plane-spinner [isRunning]="..." [delay]="..."></sk-rotating-plane-spinner>
-  <sk-double-bounce-spinner [isRunning]="..." [delay]="..."></sk-double-bounce-spinner>
-  <sk-wave-spinner [isRunning]="..." [delay]="..."></sk-wave-spinner>
-  <sk-wandering-cubes-spinner [isRunning]="..." [delay]="..."></sk-wandering-cubes-spinner>
-  <sk-pulse-spinner [isRunning]="..." [delay]="..."></sk-pulse-spinner>
-  <sk-chasing-dots-spinner [isRunning]="..." [delay]="..."></sk-chasing-dots-spinner>
-  <sk-circle-spinner [isRunning]="..." [delay]="..."></sk-circle-spinner>
-  <sk-three-bounce-spinner [isRunning]="..." [delay]="..."></sk-three-bounce-spinner>
-  <sk-cube-grid-spinner [isRunning]="..." [delay]="..."></sk-cube-grid-spinner>
-  <sk-word-press-spinner [isRunning]="..." [delay]="..."></sk-word-press-spinner>
-  <sk-fading-circle-spinner [isRunning]="..." [delay]="..."></sk-fading-circle-spinner>
+  <sk-rotating-plane [isRunning]="..." [delay]="..."></sk-rotating-plane>
+  <sk-double-bounce [isRunning]="..." [delay]="..."></sk-double-bounce>
+  <sk-wave [isRunning]="..." [delay]="..."></sk-wave>
+  <sk-wandering-cubes [isRunning]="..." [delay]="..."></sk-wandering-cubes>
+  <sk-pulse [isRunning]="..." [delay]="..."></sk-pulse>
+  <sk-chasing-dots [isRunning]="..." [delay]="..."></sk-chasing-dots>
+  <sk-circle [isRunning]="..." [delay]="..."></sk-circle>
+  <sk-three-bounce [isRunning]="..." [delay]="..."></sk-three-bounce>
+  <sk-cube-grid [isRunning]="..." [delay]="..."></sk-cube-grid>
+  <sk-word-press [isRunning]="..." [delay]="..."></sk-word-press>
+  <sk-fading-circle [isRunning]="..." [delay]="..."></sk-fading-circle>
   <sk-folding-cube [isRunning]="..." [delay]="..."></sk-folding-cube>
   ```
 
