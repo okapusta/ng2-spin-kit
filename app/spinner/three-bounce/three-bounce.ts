@@ -2,7 +2,6 @@ import {Component} from '@angular/core';
 import {BaseSpinner} from '../base-spinner';
 
 @Component({
-  moduleId: __moduleName || module.id,
   selector: 'sk-three-bounce',
   styleUrls: ['three-bounce.css'],
   template: require('./three-bounce.html')
