@@ -25,11 +25,17 @@
         'tsconfig': true
       },
       map: {
+        '@angular': 'node_modules/@angular',
         app: './app'
       },
       packages: {
+        '@angular/common': { main: 'index' },
+        '@angular/compiler': { main: 'index' },
+        '@angular/core': { main: 'index' },
+        '@angular/platform-browser': { main: 'index' },
+        '@angular/platform-browser-dynamic': { main: 'index' },
         app: {
-          main: './main.ts',
+          main: './index.ts',
           defaultExtension: 'ts'
         }
       }
