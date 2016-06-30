@@ -83,3 +83,4 @@ Inspired by angular-spinkit (https://github.com/Urigo/angular-spinkit)
   ```
   
 ## Add all your requests and ideas in the issues area or send us a pull request!
+
